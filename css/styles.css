@@ -1,0 +1,55 @@
+body {
+  background-color: #c9dbee;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button, .background-button {
+  display: flex;
+  gap: 5em;
+  padding: 2em;
+  justify-content: center;
+  margin: 20px;
+  background-color: white;
+  border: white;
+  border-radius: 7px;
+  font-size: 1.5em;
+}
+
+.button:hover {
+  background-color: #7defc5;
+}
+
+.background-button:hover {
+  background-color: blue;
+}
+
+.staandeKat {
+  width: 500px;
+  position: relative;
+  max-width: 20%;
+}
+
+@keyframes springen {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-100px); }
+  100% { transform: translateY(0); }
+}
