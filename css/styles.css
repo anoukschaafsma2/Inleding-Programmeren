@@ -5,7 +5,7 @@ body {
   text-align: center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-attachment: fixed;
 }
 
@@ -22,17 +22,53 @@ body {
   align-items: flex-start;
 }
 
+p{
+  text-align: center;
+}
+
+#kiesachtergrond{
+  position: absolute;
+  top: 75px; 
+  left: 90%; 
+  transform: translateX(-50%);
+  font-size: 1.5em;
+  font-family:'Courier New', Courier, monospace;
+}
+
 .button, .background-button {
   display: flex;
+  align-items: center; 
+  justify-content: center; 
   gap: 5em;
   padding: 2em;
-  justify-content: center;
   margin: 20px;
   background-color: white;
-  border: white;
+  border: 1px solid #ccc; 
   border-radius: 7px;
   font-size: 1.5em;
+  width: 200px; 
+  height: 100px; 
+  box-sizing: border-box; 
+  font-family:'Courier New', Courier, monospace;
 }
+
+#aaien{
+  padding: 1em;
+  margin: 20px;
+  background-color: white;
+  border: 1px solid #ccc; 
+  border-radius: 7px;
+  font-size: 1.5em;
+  width: 200px; 
+  height: 100px; 
+  box-sizing: border-box; 
+  font-family:'Courier New', Courier, monospace;
+}
+
+#aaien:hover{
+  background-color: blueviolet;
+}
+
 
 .button:hover {
   background-color: #7defc5;
